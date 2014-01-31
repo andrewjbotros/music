@@ -1,0 +1,107 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive, courier new;
+    font-size: 16px;
+}
+
+.date, .subhead{
+    text-align: center;
+}
+
+.date, .blog{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blog{
+    text-align: justify;
+}
+
+.subhead{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: impact, fantasy;
+    height: 40px;
+    padding: 15px;
+}
+
+.date{
+    font-family: impactLabelReversed;
+    font-size: 25px;
+}
+
+.post{
+    font-family: courier new
+}
+.container{
+    margin: 0 auto;
+}
+
+.nav {
+    margin: -21px;
+    white-space: nowrap;
+}
+
+.top-nav {
+    overflow: auto;
+    padding: 20px 0;
+    background-color: #A2BFBF;
+    height: 210px ;
+}
+
+img, #profile, .profile {
+    height: 160px;
+    text-align: center;
+}
+
+.profile-image{
+    width: 45%;
+    float: left;
+    text-align: right;
+}
+
+.profile-details{
+    width: 55%;
+    float: left;
+    margin-top: 37px;
+    padding: 0 1em;
+    text-align: center;
+    width: 364px;
+}
+
+.profile-details > h1{
+    white-space: nowrap;
+    font-size: 50px;
+    display: inline;
+}
+
+.quotes {
+    padding: 1.5em 0;
+}
+
+.quote-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.contact {
+    display: none;
+    text-align: center;
+    background: #000
+}
+
+a, em {
+    text-decoration: none;
+    color: #364040;
+}
+
+a:hover, em:hover {
+    color: #6C7F7F;
+}
